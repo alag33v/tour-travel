@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tour&travel</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="header__logo" href="#">
+          <img class="header__image" src="images/logo.svg" alt="Логотип">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="list__item">
+              <a class="list__link" href="#">Главная</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#">Направления</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#">Приложение</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#">Отзывы</a>
+            </li>
+            <li class="list__item">
+              <a class="list__link" href="#">Истории</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <button class="header__btn--left btn" type="button">Войти</button>
+          <button class="header__btn--right btn" type="button">Регистрация</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Home -->
+
+  <section class="home">
+    <div class="container">
+      <div class="home__wrapper">
+        <div class="home__content">
+          <h1 class="home__title">Путешествуй и Исследуй</h1>
+          <h4 class="home__subtitle">Поиск отпуска</h4>
+          <form class="home__form">
+            <div class="form__wrapper">
+              <div class="input__wrapper">
+                <input class="form__input" type="text" value="Расположение">
+              </div>
+              <div class="input__wrapper">
+                <input class="form__input" type="text" value="Активность">
+              </div>
+              <div class="input__wrapper">
+                <input class="form__input" type="text" value="Оценка">
+              </div>
+              <div class="input__wrapper">
+                <input class="form__input" type="text" value="Дата">
+              </div>
+            </div>
+            <button class="form__btn btn" type="submit">Исследовать</button>
+          </form>
+        </div>
+        <img class="home__image" src="images/home.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore -->
+
+  <section class="explore">
+    <div class="container">
+      <div class="explore__wrapper">
+        <img class="explore__image" src="images/explore.jpg" alt="">
+        <div class="explore__content">
+          <h2 class="explore__title title">Новый способ исследовать мир</h2>
+          <p class="explore__text">
+            На протяжении десятилетий путешественники обращались к книгам "Лоунли Планет", когда хотели спланировать и
+            осуществить свое идеальное путешествие, но теперь они могут воспользоваться нашим сервисом.
+          </p>
+          <a class="explore__btn btn" href="#">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+
+  <section class="destinations">
+    <div class="container">
+      <h2 class="destinations__title title">Популярные направления</h2>
+      <div class="destinations__wrapper">
+        <div class="destinations__item">
+          <div class="destinations__inner">
+            <a class="destinations__link" href="#">
+              <img class="destinations__image" src="images/destinations/1.jpg" alt="">
+            </a>
+            <h4 class="destinations__item-title">Raja Ampat</h4>
+            <b class="destinations__item-text">Индонезия</b>
+          </div>
+        </div>
+        <div class="destinations__item">
+          <div class="destinations__inner">
+            <a class="destinations__link" href="#">
+              <img class="destinations__image" src="images/destinations/2.jpg" alt="">
+            </a>
+            <h4 class="destinations__item-title">Fanjingshan</h4>
+            <b class="destinations__item-text">Китай</b>
+          </div>
+        </div>
+        <div class="destinations__item">
+          <div class="destinations__inner">
+            <a class="destinations__link" href="#">
+              <img class="destinations__image" src="images/destinations/3.jpg" alt="">
+            </a>
+            <h4 class="destinations__item-title">Vevey</h4>
+            <b class="destinations__item-text">Швейцария</b>
+          </div>
+        </div>
+        <div class="destinations__item">
+          <div class="destinations__inner">
+            <a class="destinations__link" href="#">
+              <img class="destinations__image" src="images/destinations/4.jpg" alt=""></a>
+            <h4 class="destinations__item-title">Skadar</h4>
+            <b class="destinations__item-text">Черногория</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App -->
+
+  <section class="app">
+    <div class="container">
+      <div class="app__wrapper">
+        <div class="app__content">
+          <h2 class="app__title title">Приложение</h2>
+          <p class="app__text">
+            Наше приложение для городских гидов (iOS и Android), наполненное советами и советами от наших местных
+            экспертов, является лучшим ресурсом до и во время поездки.
+          </p>
+          <a class="app__btn btn" href="#">Скачать</a>
+        </div>
+        <img class="app__image" src="images/app.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="testimonials__title title">Отзывы</h2>
+      <div class="testimonials__slider">
+        <div class="testimonials__item">
+          <div class="testimonials__content">
+            <h4 class="testimonials__name">Edward Newgate</h4>
+            <p class="testimonials__position">Основатель Circle</p>
+            <div class="testimonials__text">
+              «Наше специальное приложение для взаимодействия с пациентами и веб-портал позволяют мгновенно и
+              безопасно получать доступ к информации»
+            </div>
+          </div>
+          <div class="testimonials__image">
+            <img src="images/testimonials/1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Article -->
+
+  <section class="article">
+    <div class="container">
+      <h2 class="article__title title">Популярные истории</h2>
+      <div class="article__wrapper">
+        <div class="article__item">
+          <img class="article__image" src="images/stories/1.jpg" alt="">
+          <h4 class="article__subtitle">Множество преимуществ целительного отпуска</h4>
+          <p class="article__text">«Целительные каникулы» становятся все популярнее, чтобы помочь вам улучшить ваше
+            здоровье и счастье ...</p>
+          <a class="article__link" href="#">Подробнее</a>
+        </div>
+        <div class="article__item">
+          <img class="article__image" src="images/stories/2.jpg" alt="">
+          <h4 class="article__subtitle">Множество преимуществ целительного отпуска</h4>
+          <p class="article__text">«Целительные каникулы» становятся все популярнее, чтобы помочь вам улучшить ваше
+            здоровье и счастье ...</p>
+          <a class="article__link" href="#">Подробнее</a>
+        </div>
+        <div class="article__item">
+          <img class="article__image" src="images/stories/3.jpg" alt="">
+          <h4 class="article__subtitle">Множество преимуществ целительного отпуска</h4>
+          <p class="article__text">«Целительные каникулы» становятся все популярнее, чтобы помочь вам улучшить ваше
+            здоровье и счастье ...</p>
+          <a class="article__link" href="#">Подробнее</a>
+        </div>
+        <div class="article__item">
+          <img class="article__image" src="images/stories/4.jpg" alt="">
+          <h4 class="article__subtitle">Множество преимуществ целительного отпуска</h4>
+          <p class="article__text">«Целительные каникулы» становятся все популярнее, чтобы помочь вам улучшить ваше
+            здоровье и счастье ...</p>
+          <a class="article__link" href="#">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__item">
+          <a class="footer__logo" href="#">
+            <img class="footer__logo-img" src="images/logo.svg" alt="Логотип">
+          </a>
+          <p class="footer__text">
+            Спланируйте и забронируйте идеальную поездку с советами экспертов, информацией о местах назначения от нас.
+          </p>
+          <b class="footer__rights">©2020 Thousand Sunny. Все права защищены.</b>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Направления</h3>
+          <ul class="footer__list">
+            <li>
+              <a class="footer__link" href="#">Африка</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Антарктида</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Азия</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Европа</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Америка</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Магазин</h3>
+          <ul class="footer__list">
+            <li>
+              <a class="footer__link" href="#">Гиды назначения</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Живопись и подарки</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Специальные предложения</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Время доставки</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Вопросы и ответы</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">Интересы</h3>
+          <ul class="footer__list">
+            <li>
+              <a class="footer__link" href="#">Приключенческое путешествие</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Искусство и культура</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Дикая природа</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Семейный отдых</a>
+            </li>
+            <li>
+              <a class="footer__link" href="#">Еда и напитки</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__social">
+        <a class="social__link" href="#">
+          <img class="social__image" src="images/footer/twitter.svg" alt="twitter">
+        </a>
+        <a class="social__link" href="#">
+          <img class="social__image" src="images/footer/facebook.svg" alt="facebook">
+        </a>
+        <a class="social__link" href="#">
+          <img class="social__image" src="images/footer/instagram.svg" alt="instagram">
+        </a>
+        <a class="social__link" href="#">
+          <img class="social__image" src="images/footer/linkedin.svg" alt="linkedin">
+        </a>
+        <a class="social__link" href="#">
+          <img class="social__image" src="images/footer/youtube.svg" alt="youtube">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

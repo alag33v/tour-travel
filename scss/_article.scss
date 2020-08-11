@@ -1,0 +1,44 @@
+.article__title {
+  padding-top: 120px;
+}
+
+.article__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article__image {
+  display: block;
+  max-width: 100%;
+  width: 260px;
+  height: 225px;
+  object-fit: cover;
+}
+
+.article__subtitle {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.55;
+  color: #000;
+  margin: 0;
+  max-width: 260px;
+  margin: 10px 0;
+}
+
+.article__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: $gray;
+  max-width: 260px;
+  margin: 0 0 10px;
+}
+
+.article__link {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  color: $orange;
+  display: inline-block;
+}

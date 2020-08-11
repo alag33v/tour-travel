@@ -1,0 +1,30 @@
+.explore__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.explore__image {
+  display: block;
+  max-width: 100%;
+}
+
+.explore__title {
+  max-width: 480px;
+}
+
+.explore__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: $gray;
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+
+.explore__btn {
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}

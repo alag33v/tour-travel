@@ -1,0 +1,30 @@
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.app__title {
+  max-width: 480px;
+}
+
+.app__text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: $gray;
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+
+.app__btn {
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.app__image {
+  display: block;
+  max-width: 100%;
+}

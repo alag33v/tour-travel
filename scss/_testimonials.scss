@@ -1,0 +1,39 @@
+.testimonials__title {
+  padding-top: 120px;
+  max-width: 480px;
+}
+
+.testimonials__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials__name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  margin: 0 0 15px;
+  padding-top: 100px;
+}
+
+.testimonials__position {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 0 0 30px;
+}
+
+.testimonials__text {
+  max-width: 480px;
+}
+
+.testimonials__image {
+  padding-right: 130px;
+}
+
+.testimonials__image img {
+  display: block;
+  max-width: 100%;
+}
