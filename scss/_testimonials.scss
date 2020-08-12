@@ -6,6 +6,7 @@
 .testimonials__item {
   display: flex;
   justify-content: space-between;
+  padding-right: 130px;
 }
 
 .testimonials__name {
@@ -30,10 +31,23 @@
 }
 
 .testimonials__image {
-  padding-right: 130px;
+  position: relative;
+  &::after {
+    content: '';
+    width: 132px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 16px 0 0 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
 }
 
 .testimonials__image img {
-  display: block;
+  width: 384px;
+  height: 491px;
   max-width: 100%;
+  object-fit: cover;
+  display: block;
 }
