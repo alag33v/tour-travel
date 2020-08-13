@@ -2,10 +2,22 @@
   display: flex;
   justify-content: space-between;
   padding-top: 120px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    padding-top: 0;
+  }
 }
 
 .app__title {
   max-width: 480px;
+  @media (max-width: 1200px) {
+    text-align: center;
+    max-width: 1200px;
+    margin-bottom: 10px;
+  } 
+  @media (max-width: 550px) {
+    margin-bottom: 5px;
+  }
 }
 
 .app__text {
@@ -15,6 +27,13 @@
   color: $gray;
   max-width: 480px;
   margin-bottom: 40px;
+  @media (max-width: 1200px) {
+    max-width: 1000px;
+    margin: 0 auto 20px;
+  }
+  @media (max-width: 550px) {
+    font-size: 14px;
+  }
 }
 
 .app__btn {
@@ -22,9 +41,20 @@
   text-align: center;
   text-decoration: none;
   display: block;
+  @media (max-width: 1200px) {
+    width: 50%;
+    max-width: 100%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 950px) {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 .app__image {
-  display: block;
   max-width: 100%;
+  object-fit: contain;
+  display: block;
 }

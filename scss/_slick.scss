@@ -123,3 +123,31 @@
   bottom: 8px;
   right: 147px;
 }
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+  margin-top: -50px;
+  z-index: 2;
+}
+
+.slick-dots button {
+  font-size: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+}
+
+.slick-active button {
+  background-color: #fff;
+}

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding-top: 30px;
 }
 
@@ -17,6 +18,12 @@
 .menu__list {
   display: flex;
   padding-left: 250px;
+  @media (max-width: 1200px) {
+    padding-left: 0;
+  }
+  @media (max-width: 950px) {
+    display: none;
+  }
 }
 
 .list__item {
@@ -40,10 +47,32 @@
   }
 }
 
+.header__buttons {
+  @media (max-width: 950px) {
+    margin-right: auto;
+    @media (max-width: 550px) {
+      margin-top: 20px;
+      width: 100%;
+      order: 1;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
 .btn.header__btn--left {
   border: 1px solid $orange;
   color: $orange;
   background-color: transparent;
+}
+
+.header__btn--left {
+  @media (max-width: 950px) {
+    margin-left: 20px;
+  }
+  @media (max-width: 550px) {
+    margin-left: 0;
+  }
 }
 
 .header__btn--right {
@@ -55,16 +84,15 @@
 .burger__button-wrapper {
   width: 25px;
   height: 21px;
-  display: none;
   justify-content: center;
   align-items: center;
+  display: none;
   cursor: pointer;
-  // display: none;
-  // @media (max-width: 600px) {
-  //   display: flex;
-  //   margin-right: 20px;
-  //   margin-left: auto;
-  // }
+  @media (max-width: 950px) {
+    display: flex;
+    margin-right: 20px;
+    margin-left: auto;
+  }
 }
 
 .burger__button {
